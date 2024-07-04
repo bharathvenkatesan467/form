@@ -1,0 +1,68 @@
+.b1{
+    background-color: rgb(33, 162, 26);
+}
+.b1:hover{
+    color: blue;
+    background-color: aqua;
+}
+.b2{
+    background-color: red;
+
+}
+.b2:hover{
+    color: blue;
+    background-color: aqua;
+}
+.d1{
+    text-shadow: 1px;
+    text-align: justify;
+    padding: 5% 25%;
+}
+.f1{
+    border: 2px solid black;
+    text-align: left;
+    font-weight: bold;
+    background-color: azure;
+    padding: 5%;
+    font-size: larger;
+}
+input:focus{
+    background-color: rgb(145, 238, 238);
+}
+.b{
+    background-color: rgb(147, 211, 214);
+}
+h1{
+    text-align: center;
+    background-color: rgb(84, 158, 195);
+}
+@media (min-width:600px) and (max-width:1200px) {
+    .b{
+        background-color: skyblue;
+    }
+    .d1{
+        text-shadow: 1px;
+        text-align: justify;
+        padding: 5% 25%;
+    }
+    .f1{
+        border: 2px solid black;
+        text-align: left;
+        font-weight: bold;
+        background-color: azure;
+        padding: 2%;
+        font-size: larger;
+    }
+    
+}
+@media (min-width:320px) and (max-width:600px){
+    .f1{
+        border: 2px solid black;
+        text-align: left;
+        font-weight: bold;
+        background-color: azure;
+        padding: 5%;
+        font-size: larger;
+    }
+}
+    
